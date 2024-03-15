@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#this bash script searches for a user, if not found it creates one.
+#This bash script searches for a user, if not found it creates one.
 
 echo "What is your username?"
 read name
