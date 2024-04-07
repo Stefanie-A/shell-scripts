@@ -1,5 +1,10 @@
 #!/bin/bash
 
-#This scripts backups files with the rysnc command and enables archive mode wih -a option.
+#This scripts backups files/directories and synchronizes them using the rysnc command.
+#-a: archrive mode
+#-v: verbios information
+#N/B: The main file and the backup file should be in the same directory to prevent errors from occuring.
 
-rysnc -a backup_file.txt file.txt
+
+rysnc -av "/source/directory" "/destination/directory"
+
